@@ -2,8 +2,9 @@
 const e = React.createElement;
 
 //¡Este es un componente React!
-const Button = () => e('button', {
-    onclick:() => alert("Has hecho click")},
+const Button = () => e(
+    'button', 
+    {onclick: () => alert("Has hecho click")},
     'Haz Click!'
 );
 
